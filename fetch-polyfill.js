@@ -1,4 +1,4 @@
-function fetch(url, successCallback, errorCallback) {
+function fetchPoly(url, successCallback, errorCallback) {
   var req = new XMLHttpRequest();
   req.open('GET', url, true);
   req.onreadystatechange = function (aEvt) {
